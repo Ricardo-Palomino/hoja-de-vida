@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'THEBOLD';
+  src: url('../font/THEBOLDFONT-FREEVERSION.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:#eaf6ff;
+  color: #333;
+  padding: 20px;
+}
+
+.encabezado {
+  display: flex;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.foto img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-right: 20px;
+}
+
+.info-principal h1 {
+  font-family: THEBOLD;
+  font-size: 2rem;
+  font-weight: bold;
+}
